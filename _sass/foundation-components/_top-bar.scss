@@ -38,7 +38,7 @@ $topbar-link-bg-color-hover: $charcoal !default;
 $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
 $topbar-link-font-family: $body-font-family !default;
-$topbar-link-text-transform: none !default;
+$topbar-link-text-transform: none; // !default;
 $topbar-link-padding: ($topbar-height / 3) !default;
 $topbar-back-link-size: rem-calc(18) !default;
 $topbar-link-dropdown-padding: rem-calc(20) !default;
@@ -57,13 +57,13 @@ $topbar-dropdown-toggle-color: $white !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
 
 $topbar-dropdown-label-color: $monsoon !default;
-$topbar-dropdown-label-text-transform: uppercase !default;
+$topbar-dropdown-label-text-transform: none !default;
 $topbar-dropdown-label-font-weight: $font-weight-bold !default;
 $topbar-dropdown-label-font-size: rem-calc(10) !default;
 $topbar-dropdown-label-bg: $oil !default;
 
 // Top menu icon styles
-$topbar-menu-link-transform: uppercase !default;
+$topbar-menu-link-transform: none !default;
 $topbar-menu-link-font-size: rem-calc(13) !default;
 $topbar-menu-link-weight: $font-weight-bold !default;
 $topbar-menu-link-color: $white !default;
@@ -168,11 +168,11 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       form,
       input { margin-bottom: 0; }
 
-      input { 
-        height: $topbar-input-height; 
-        padding-top: .35rem; 
-        padding-bottom: .35rem; 
-        font-size: $topbar-button-font-size; 
+      input {
+        height: $topbar-input-height;
+        padding-top: .35rem;
+        padding-bottom: .35rem;
+        font-size: $topbar-button-font-size;
       }
 
       .button, button {
