@@ -26,11 +26,11 @@ permalink: "/partners/"
 
 <div class="row">
 <div class="small-4 column">
-  <img src="{{ site.urlimg }}/logo_CERC.png" alt="CERC">
+  <img src="{{ site.urlimg }}/logo_cerc.png" alt="CERC">
 </div>
 
 <div class="small-4 column">
-  <img src="{{ site.urlimg }}/logo_NERC.jpg" alt="NERC">
+  <img src="{{ site.urlimg }}/logo_nerc.jpg" alt="NERC">
 </div>
 
   <div class="small-4 column"> </div>
