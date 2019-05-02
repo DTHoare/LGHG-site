@@ -14,14 +14,14 @@ permalink: "/greenhouse-gases/"
     <img src="{{ site.urlimg }}/{{ page.header.image }}" alt="{{ site.title }}">
   </div>
   <div class="small-6 columns">
-    <h1>Methane</h1>
+    <h3>Methane</h3>
     <p> Some info about Ch4 </p>
   </div><!-- /.small-12.columns -->
 </div><!-- /.row -->
-
+<hr>
 <div class="row">
   <div class="small-6 columns">
-    <h1>Carbon Dioxide</h1>
+    <h3>Carbon Dioxide</h3>
     <p> Some info about Co2 </p>
   </div>
   <div class="small-6 columns">

@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: page-fullwidth
+subheadline: ""
 title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+teaser: "This will point to the best people to contact for different tasks."
+header:
+   title: "Get in Contact"
+   background-color: "#c7e8e8"
+   image: "london.png"
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
-
-
- [1]: http://www.wufoo.com/

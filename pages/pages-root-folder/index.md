@@ -6,7 +6,8 @@
 #
 layout: frontpage
 header:
-    title: London Greenhouse Gas Monitoring Network
+    title: "London GHG"
+    subtitle: "Greenhouse Gas Sensor Network for London"
     background-color: "#c7e8e8"
     image: london.png
 #header:
@@ -20,12 +21,12 @@ widget2:
   title: "Greenhouse Gases"
   url: '/greenhouse-gases'
   image: methane.png
-  text: 'An overview of the science.'
+  text: 'An overview of the two most important greenhouse gases: Carbon Dioxide and Methane.'
 widget3:
   title: "Instruments"
   url: '/instruments'
   image: instrument.png
-  text: 'LGHG is a collobaration between public and academic partners.'
+  text: 'An insight into the equipment used to measure greenhouse gases.'
 #
 # Use the call for action to show a button on the frontpage
 #

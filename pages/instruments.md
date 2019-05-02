@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: "The Technology"
 title: "Instruments"
 teaser: "This is a summary of the kit."
@@ -9,8 +9,14 @@ header:
    image: "instrument.png"
 permalink: "/instruments/"
 ---
-<ul>
-    {% for post in site.tags.header %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+<div class="row">
+  <div class="small-12 column">
+  This gives some information about the instruments and where they will go.
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="small-4 column"> Image 1</div>
+  <div class="small-4 column"> Image 2</div>
+  <div class="small-4 column"> Image 3 </div>
+</div>

@@ -22,13 +22,17 @@
 
 <div id="masthead-with-text" style="{% if page.header.background-color %}background: {{ page.header.background-color }};{% endif %} {% if page.header.image_fullwidth %}{% elsif page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'){% endif %}">
 	<div class="row">
-		<div class="small-6 columns">
+		<div class="small-8 columns">
 			<div class="masthead-title">{{ page.header.title }}</div>
+
+			{% if page.header.subtitle %}
+			<div id="masthead-subtitle">{{ page.header.subtitle }}</div>
+			{% endif %}
 		</div><!-- /.small-6.columns -->
 		{% if page.header.image %}
-		<figure class="small-6 columns">
+		<div class="small-4 columns">
 			<img src="{{ site.urlimg }}/{{ page.header.image }}" alt="{{ site.title }}">
-		</figure>
+		</div>
 		{% endif %}
 	</div><!-- /.row -->
 </div><!-- /#masthead -->

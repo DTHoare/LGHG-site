@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: "Our Goals"
 title: "The London Greenhouse Gas Project"
 teaser: "This is a summary of the project."
